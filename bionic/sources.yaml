@@ -7,3 +7,6 @@ ros-watchdog:
 roscore-daemon:
   ubuntu:
     - ros-melodic-roscore-daemon
+libaria:
+  ubuntu:
+    - ros-melodic-libaria
