@@ -1,3 +1,6 @@
 ros-env:
   ubuntu:
     - ros-melodic-ros-env
+roscore-daemon:
+  ubuntu:
+    - ros-melodic-roscore-daemon
