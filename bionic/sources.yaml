@@ -1,11 +1,1 @@
-ros-env:
-  ubuntu:
-    - ros-melodic-ros-env
-    - ros-noetic-ros-env
-roscore-daemon:
-  ubuntu:
-    - ros-melodic-roscore-daemon
-    - ros-noetic-roscore-daemon
-ros-watchdog:
-  ubuntu:
-    - ros-noetic-ros-watchdog
+
