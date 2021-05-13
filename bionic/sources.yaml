@@ -10,3 +10,6 @@ roscore-daemon:
 libaria:
   ubuntu:
     - ros-melodic-libaria
+agv:
+  ubuntu:
+    - ros-melodic-ros-omron-agv
