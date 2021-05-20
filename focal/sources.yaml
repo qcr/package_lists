@@ -13,3 +13,6 @@ libaria:
 agv:
   ubuntu:
     - ros-noetic-ros-omron-agv
+armer-msgs:
+  ubuntu:
+    - ros-noetic-armer-msgs
