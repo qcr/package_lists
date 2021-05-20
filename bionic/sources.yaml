@@ -13,3 +13,6 @@ libaria:
 agv:
   ubuntu:
     - ros-melodic-ros-omron-agv
+armer-msgs:
+  ubuntu:
+    - ros-melodic-armer-msgs
