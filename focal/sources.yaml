@@ -4,3 +4,6 @@ libaria:
 ros_noetic-armer-msgs:
   ubuntu:
     - ros_noetic-armer-msgs
+armer_msgs:
+  ubuntu:
+    - ros-noetic-armer-msgs
