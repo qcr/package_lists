@@ -1,6 +1,7 @@
 libaria:
   ubuntu:
     - ros-noetic-libaria
+    - - ros-noetic-libaria
 ros_noetic-armer-msgs:
   ubuntu:
     - ros_noetic-armer-msgs
