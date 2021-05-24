@@ -1,18 +1,3 @@
-ros-env:
-  ubuntu:
-    - ros-noetic-ros-env
-ros-watchdog:
-  ubuntu:
-    - ros-noetic-ros-watchdog
-roscore-daemon:
-  ubuntu:
-    - ros-noetic-roscore-daemon
 libaria:
   ubuntu:
     - ros-noetic-libaria
-agv:
-  ubuntu:
-    - ros-noetic-ros-omron-agv
-armer-msgs:
-  ubuntu:
-    - ros-noetic-armer-msgs
