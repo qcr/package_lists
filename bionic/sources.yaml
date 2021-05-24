@@ -1,6 +1,3 @@
 libaria:
   ubuntu:
     - ros-melodic-libaria
-ros_melodic-armer-msgs:
-  ubuntu:
-    - ros_melodic-armer-msgs
