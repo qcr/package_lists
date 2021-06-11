@@ -9,5 +9,5 @@ armer_msgs:
     - ros-noetic-armer-msgs
 roboticstoolbox-python:
   ubuntu:
-    pip3:
+    pip:
       packages: [roboticstoolbox-python]
