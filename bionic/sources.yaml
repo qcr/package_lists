@@ -1,3 +1,15 @@
 libaria:
   ubuntu:
     - ros-melodic-libaria
+ros_env:
+  ubuntu:
+    - ros-melodic-ros-env
+ros_omron_agv_daemon:
+  ubuntu:
+    - ros-melodic-ros-omron-agv-daemon
+ros_watchdog:
+  ubuntu:
+    - ros-melodic-ros-watchdog
+roscore_daemon:
+  ubuntu:
+    - ros-melodic-roscore-daemon
