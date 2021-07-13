@@ -10,4 +10,17 @@ armer_msgs:
 roboticstoolbox-python:
   ubuntu:
     pip:
-      packages: [roboticstoolbox-python]
+      packages:
+        - roboticstoolbox-python
+ros_env:
+  ubuntu:
+    - ros-noetic-ros-env
+ros_omron_agv_daemon:
+  ubuntu:
+    - ros-noetic-ros-omron-agv-daemon
+ros_watchdog:
+  ubuntu:
+    - ros-noetic-ros-watchdog
+roscore_daemon:
+  ubuntu:
+    - ros-noetic-roscore-daemon
