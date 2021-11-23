@@ -11,7 +11,7 @@ roboticstoolbox-python:
   ubuntu:
     pip:
       packages:
-        - git+https://github.com/petercorke/robotics-toolbox-python.git@future
+        - git+https://github.com/petercorke/robotics-toolbox-python.git@future#egg=roboticstoolbox-python
 ros_env:
   ubuntu:
     - ros-noetic-ros-env
