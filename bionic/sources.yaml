@@ -25,3 +25,6 @@ robot_bringup_daemon:
 ros_daemon:
   ubuntu:
     - ros-melodic-ros-daemon
+armer_teleop:
+  ubuntu:
+    - ros-melodic-armer-teleop
