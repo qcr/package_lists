@@ -13,3 +13,6 @@ ros_watchdog:
 roscore_daemon:
   ubuntu:
     - ros-melodic-roscore-daemon
+armer_msgs:
+  ubuntu:
+    - ros-melodic-armer-msgs
