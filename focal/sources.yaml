@@ -39,3 +39,6 @@ ros_daemon:
   ubuntu:
     - ros-noetic-ros-daemon
     - ros-melodic-ros-daemon
+armer_teleop:
+  ubuntu:
+    - ros-noetic-armer-teleop
