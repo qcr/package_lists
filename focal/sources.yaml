@@ -25,3 +25,12 @@ ros_watchdog:
 roscore_daemon:
   ubuntu:
     - ros-noetic-roscore-daemon
+qcr_env:
+  ubuntu:
+    - ros-noetic-qcr-env
+robot_bringup_daemon:
+  ubuntu:
+    - ros-noetic-robot-bringup-daemon
+ros_daemon:
+  ubuntu:
+    - ros-noetic-ros-daemon
