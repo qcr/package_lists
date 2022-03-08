@@ -16,3 +16,12 @@ roscore_daemon:
 armer_msgs:
   ubuntu:
     - ros-melodic-armer-msgs
+qcr_env:
+  ubuntu:
+    - ros-melodic-qcr-env
+robot_bringup_daemon:
+  ubuntu:
+    - ros-melodic-robot-bringup-daemon
+ros_daemon:
+  ubuntu:
+    - ros-melodic-ros-daemon
