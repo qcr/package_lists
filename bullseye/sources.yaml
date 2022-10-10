@@ -1,0 +1,6 @@
+python3-empy:
+  debian:
+    - python3-empy
+log4cxx:
+  debian:
+    - liblog4cxx-dev
