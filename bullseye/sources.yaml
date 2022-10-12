@@ -1,6 +1,384 @@
-python3-empy:
+actionlib:
   debian:
-    - python3-empy
+  - ros-noetic-actionlib
+actionlib_msgs:
+  debian:
+  - ros-noetic-actionlib-msgs
+angles:
+  debian:
+  - ros-noetic-angles
+bond:
+  debian:
+  - ros-noetic-bond
+bond_core:
+  debian:
+  - ros-noetic-bond-core
+bondcpp:
+  debian:
+  - ros-noetic-bondcpp
+bondpy:
+  debian:
+  - ros-noetic-bondpy
+camera_calibration:
+  debian:
+  - ros-noetic-camera-calibration
+camera_calibration_parsers:
+  debian:
+  - ros-noetic-camera-calibration-parsers
+camera_info_manager:
+  debian:
+  - ros-noetic-camera-info-manager
+catkin:
+  debian:
+  - ros-noetic-catkin
+catkin-pkg:
+  debian:
+  - python3-catkin-pkg
+catkin-pkg-modules:
+  debian:
+  - python3-catkin-pkg-modules
+class_loader:
+  debian:
+  - ros-noetic-class-loader
+cmake_modules:
+  debian:
+  - ros-noetic-cmake-modules
+common_msgs:
+  debian:
+  - ros-noetic-common-msgs
+compressed_depth_image_transport:
+  debian:
+  - ros-noetic-compressed-depth-image-transport
+compressed_image_transport:
+  debian:
+  - ros-noetic-compressed-image-transport
+cpp_common:
+  debian:
+  - ros-noetic-cpp-common
+cv_bridge:
+  debian:
+  - ros-noetic-cv-bridge
+depth_image_proc:
+  debian:
+  - ros-noetic-depth-image-proc
+diagnostic_msgs:
+  debian:
+  - ros-noetic-diagnostic-msgs
+dynamic_reconfigure:
+  debian:
+  - ros-noetic-dynamic-reconfigure
+eigen_conversions:
+  debian:
+  - ros-noetic-eigen-conversions
+filters:
+  debian:
+  - ros-noetic-filters
+gencpp:
+  debian:
+  - ros-noetic-gencpp
+geneus:
+  debian:
+  - ros-noetic-geneus
+genlisp:
+  debian:
+  - ros-noetic-genlisp
+genmsg:
+  debian:
+  - ros-noetic-genmsg
+gennodejs:
+  debian:
+  - ros-noetic-gennodejs
+genpy:
+  debian:
+  - ros-noetic-genpy
+geometry_msgs:
+  debian:
+  - ros-noetic-geometry-msgs
+image_common:
+  debian:
+  - ros-noetic-image-common
+image_geometry:
+  debian:
+  - ros-noetic-image-geometry
+image_pipeline:
+  debian:
+  - ros-noetic-image-pipeline
+image_proc:
+  debian:
+  - ros-noetic-image-proc
+image_publisher:
+  debian:
+  - ros-noetic-image-publisher
+image_rotate:
+  debian:
+  - ros-noetic-image-rotate
+image_transport:
+  debian:
+  - ros-noetic-image-transport
+image_transport_plugins:
+  debian:
+  - ros-noetic-image-transport-plugins
+image_view:
+  debian:
+  - ros-noetic-image-view
+laser_assembler:
+  debian:
+  - ros-noetic-laser-assembler
+laser_filters:
+  debian:
+  - ros-noetic-laser-filters
+laser_geometry:
+  debian:
+  - ros-noetic-laser-geometry
+laser_pipeline:
+  debian:
+  - ros-noetic-laser-pipeline
 log4cxx:
   debian:
-    - liblog4cxx-dev
+  - liblog4cxx-dev
+message_filters:
+  debian:
+  - ros-noetic-message-filters
+message_generation:
+  debian:
+  - ros-noetic-message-generation
+message_runtime:
+  debian:
+  - ros-noetic-message-runtime
+mk:
+  debian:
+  - ros-noetic-mk
+nav_msgs:
+  debian:
+  - ros-noetic-nav-msgs
+nodelet:
+  debian:
+  - ros-noetic-nodelet
+nodelet_core:
+  debian:
+  - ros-noetic-nodelet-core
+nodelet_topic_tools:
+  debian:
+  - ros-noetic-nodelet-topic-tools
+pcl_conversions:
+  debian:
+  - ros-noetic-pcl-conversions
+pcl_msgs:
+  debian:
+  - ros-noetic-pcl-msgs
+pcl_ros:
+  debian:
+  - ros-noetic-pcl-ros
+perception:
+  debian:
+  - ros-noetic-perception
+perception_pcl:
+  debian:
+  - ros-noetic-perception-pcl
+pluginlib:
+  debian:
+  - ros-noetic-pluginlib
+polled_camera:
+  debian:
+  - ros-noetic-polled-camera
+python3-empy:
+  debian:
+  - python3-empy
+ros:
+  debian:
+  - ros-noetic-ros
+ros_base:
+  debian:
+  - ros-noetic-ros-base
+ros_comm:
+  debian:
+  - ros-noetic-ros-comm
+ros_core:
+  debian:
+  - ros-noetic-ros-core
+ros_environment:
+  debian:
+  - ros-noetic-ros-environment
+rosbag:
+  debian:
+  - ros-noetic-rosbag
+rosbag_migration_rule:
+  debian:
+  - ros-noetic-rosbag-migration-rule
+rosbag_storage:
+  debian:
+  - ros-noetic-rosbag-storage
+rosbash:
+  debian:
+  - ros-noetic-rosbash
+rosboost_cfg:
+  debian:
+  - ros-noetic-rosboost-cfg
+rosbuild:
+  debian:
+  - ros-noetic-rosbuild
+rosclean:
+  debian:
+  - ros-noetic-rosclean
+rosconsole:
+  debian:
+  - ros-noetic-rosconsole
+rosconsole_bridge:
+  debian:
+  - ros-noetic-rosconsole-bridge
+roscpp:
+  debian:
+  - ros-noetic-roscpp
+roscpp_core:
+  debian:
+  - ros-noetic-roscpp-core
+roscpp_serialization:
+  debian:
+  - ros-noetic-roscpp-serialization
+roscpp_traits:
+  debian:
+  - ros-noetic-roscpp-traits
+roscreate:
+  debian:
+  - ros-noetic-roscreate
+rosdep:
+  debian:
+  - python3-rosdep
+rosdep-modules:
+  debian:
+  - python3-rosdep-modules
+rosdistro:
+  debian:
+  - python3-rosdistro
+rosdistro-modules:
+  debian:
+  - python3-rosdistro-modules
+rosgraph:
+  debian:
+  - ros-noetic-rosgraph
+rosgraph_msgs:
+  debian:
+  - ros-noetic-rosgraph-msgs
+roslang:
+  debian:
+  - ros-noetic-roslang
+roslaunch:
+  debian:
+  - ros-noetic-roslaunch
+roslib:
+  debian:
+  - ros-noetic-roslib
+roslisp:
+  debian:
+  - ros-noetic-roslisp
+roslz4:
+  debian:
+  - ros-noetic-roslz4
+rosmake:
+  debian:
+  - ros-noetic-rosmake
+rosmaster:
+  debian:
+  - ros-noetic-rosmaster
+rosmsg:
+  debian:
+  - ros-noetic-rosmsg
+rosnode:
+  debian:
+  - ros-noetic-rosnode
+rosout:
+  debian:
+  - ros-noetic-rosout
+rospack:
+  debian:
+  - ros-noetic-rospack
+rosparam:
+  debian:
+  - ros-noetic-rosparam
+rospkg:
+  debian:
+  - python3-rospkg
+rospkg-modules:
+  debian:
+  - python3-rospkg-modules
+rospy:
+  debian:
+  - ros-noetic-rospy
+rosservice:
+  debian:
+  - ros-noetic-rosservice
+rostest:
+  debian:
+  - ros-noetic-rostest
+rostime:
+  debian:
+  - ros-noetic-rostime
+rostopic:
+  debian:
+  - ros-noetic-rostopic
+rosunit:
+  debian:
+  - ros-noetic-rosunit
+roswtf:
+  debian:
+  - ros-noetic-roswtf
+sensor_msgs:
+  debian:
+  - ros-noetic-sensor-msgs
+shape_msgs:
+  debian:
+  - ros-noetic-shape-msgs
+smclib:
+  debian:
+  - ros-noetic-smclib
+std_msgs:
+  debian:
+  - ros-noetic-std-msgs
+std_srvs:
+  debian:
+  - ros-noetic-std-srvs
+stereo_image_proc:
+  debian:
+  - ros-noetic-stereo-image-proc
+stereo_msgs:
+  debian:
+  - ros-noetic-stereo-msgs
+tf:
+  debian:
+  - ros-noetic-tf
+tf2:
+  debian:
+  - ros-noetic-tf2
+tf2_eigen:
+  debian:
+  - ros-noetic-tf2-eigen
+tf2_geometry_msgs:
+  debian:
+  - ros-noetic-tf2-geometry-msgs
+tf2_msgs:
+  debian:
+  - ros-noetic-tf2-msgs
+tf2_py:
+  debian:
+  - ros-noetic-tf2-py
+tf2_ros:
+  debian:
+  - ros-noetic-tf2-ros
+theora_image_transport:
+  debian:
+  - ros-noetic-theora-image-transport
+topic_tools:
+  debian:
+  - ros-noetic-topic-tools
+trajectory_msgs:
+  debian:
+  - ros-noetic-trajectory-msgs
+vision_opencv:
+  debian:
+  - ros-noetic-vision-opencv
+visualization_msgs:
+  debian:
+  - ros-noetic-visualization-msgs
+xmlrpcpp:
+  debian:
+  - ros-noetic-xmlrpcpp
