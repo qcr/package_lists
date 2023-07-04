@@ -15,21 +15,21 @@ ros_env:
 ros_omron_agv_daemon:
   ubuntu:
     - ros-noetic-ros-omron-agv-daemon
-ros_watchdog:
-  ubuntu:
-    - ros-noetic-ros-watchdog
-roscore_daemon:
-  ubuntu:
-    - ros-noetic-roscore-daemon
+# ros_watchdog:
+#   ubuntu:
+#     - ros-noetic-ros-watchdog
+# roscore_daemon:
+#   ubuntu:
+#     - ros-noetic-roscore-daemon
 qcr_env:
   ubuntu:
     - ros-noetic-qcr-env
-robot_bringup_daemon:
-  ubuntu:
-    - ros-noetic-robot-bringup-daemon
-ros_daemon:
-  ubuntu:
-    - ros-noetic-ros-daemon
+# robot_bringup_daemon:
+#   ubuntu:
+#     - ros-noetic-robot-bringup-daemon
+# ros_daemon:
+#   ubuntu:
+#     - ros-noetic-ros-daemon
 armer_teleop:
   ubuntu:
     - ros-noetic-armer-teleop
