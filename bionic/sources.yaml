@@ -7,24 +7,24 @@ ros_env:
 ros_omron_agv_daemon:
   ubuntu:
     - ros-melodic-ros-omron-agv-daemon
-ros_watchdog:
-  ubuntu:
-    - ros-melodic-ros-watchdog
-roscore_daemon:
-  ubuntu:
-    - ros-melodic-roscore-daemon
+# ros_watchdog:
+#   ubuntu:
+#     - ros-melodic-ros-watchdog
+# roscore_daemon:
+#   ubuntu:
+#     - ros-melodic-roscore-daemon
 armer_msgs:
   ubuntu:
     - ros-melodic-armer-msgs
 qcr_env:
   ubuntu:
     - ros-melodic-qcr-env
-robot_bringup_daemon:
-  ubuntu:
-    - ros-melodic-robot-bringup-daemon
-ros_daemon:
-  ubuntu:
-    - ros-melodic-ros-daemon
+# robot_bringup_daemon:
+#   ubuntu:
+#     - ros-melodic-robot-bringup-daemon
+# ros_daemon:
+#   ubuntu:
+#     - ros-melodic-ros-daemon
 armer_teleop:
   ubuntu:
     - ros-melodic-armer-teleop
